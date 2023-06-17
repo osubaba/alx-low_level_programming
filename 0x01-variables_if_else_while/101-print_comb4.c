@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - main block
- * Description: Print all possible different combinations 
+ * main - main Entry
+ * Discription : remember my code
  * Return: 0 (success)
  */
 int main(void)
