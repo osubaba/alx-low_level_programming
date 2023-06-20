@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - prints alphabet
- * Discription: insomania alphabet
- * Return: returns 0
+ * print - prints alphabet
+ * Discription: prints alphabet letters in lowercase from a to z
+ * Return: void
  */
 void print_alphabet(void)
 {
