@@ -1,4 +1,4 @@
-#include "main.h"
+#include "ausn.h"
 
 /**
  * print_rev - print a string in reverse
