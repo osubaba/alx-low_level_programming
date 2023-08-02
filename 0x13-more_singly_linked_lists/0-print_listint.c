@@ -15,7 +15,7 @@ size_t print_listint(const listint_t *h)
 	{
 		printf("%d\n", noma->n);
 		count += 1;
-		noma =noma->next;
+		noma = noma->next;
 	}
 	return (count);
 }
