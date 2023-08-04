@@ -1,38 +1,17 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *print_binary_rev - A recursive helper function that prints
- *the binary number in reverse
- *@p: A variable that takes in the unsigned long int variable
- *from p
+ *get_bit - a function that uses the index
+ *variable to return the value of a bit
+ *@n: The decimal value passed
+ *@index: The particular bit being observed
+ *Return: the value of the bit at index or -1 if there was an error
  */
-void print_binary_rev(unsigned long int p)
+int get_bit(unsigned long int n, unsigned int index)
 {
-	while (p > 0)
-	{
-		print_binary_rev(p >> 1);
-		if (p & 1)
-		{
-			printf("1");
-			p = p >> 1;
-			break;
-		}
-		else
-		{
-			printf("0");
-			p = p >> 1;
-			break;
-		}
-	}
-}
-/**
- *print_binary - A function that calls a recursive function to print out binary
- *numbers in the correct order
- *@n: The number being passed by the main function
- */
-void print_binary(unsigned long int n)
-{
-	if (n == 0)
-		printf("0");
-	print_binary_rev(n);
+	n = n >> index;
+	if (index > 63)
+		return (-1);
+	n = n % 2;
+	return (n);
 }
