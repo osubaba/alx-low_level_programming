@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *get_endianness - A function that finds the endianess of your machine
+ *get_endianness - A function that finds the endianess of the machine
  *Return: The char pointer to an address
  */
 int get_endianness(void)

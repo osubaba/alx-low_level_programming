@@ -2,7 +2,7 @@
 /**
  *clear_bit - A function that sets the value of a bit to a 0 at
  *a given index
- *@n: a pointer pointing to the variable that is passed in the main function
+ *@n: a pointer points to the variable that is passed in the main function
  *@index: the given index of a number that is changed
  *Return: 1 if successful, -1 if an error occurred
  */

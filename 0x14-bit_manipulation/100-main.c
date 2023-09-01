@@ -3,10 +3,10 @@
 
 int main(void)
 {
-    int n;
+    int i;
 
-    n = get_endianness();
-    if (n != 0)
+    i = get_endianness();
+    if (i != 0)
     {
         printf("Little Endian\n");
     }

@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *print_binary_rev - A recursive helper function that prints
+ *print_binary_rev - Recursive helper function that prints
  *the binary number in reverse
  *@p: A variable that takes in the unsigned long int variable
  *from p
