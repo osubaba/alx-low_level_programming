@@ -1,4 +1,4 @@
-#include "main."
+#include "main.h"
 
 #define MAXSIZE 1204
 #define SE STDERR_FILENO
