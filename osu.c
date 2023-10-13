@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	char name[50] = "osubaba";
+	char name[500] = "osubaba";
 
 	puts(name);
 
